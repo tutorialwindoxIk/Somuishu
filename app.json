@@ -1,7 +1,7 @@
 {
-    "name": "𝙳𝙰𝚇𝚇 𝙼𝚄𝚂𝙸𝙲",
+    "name": "ɴᴏʙɪ 𝙼𝚄𝚂𝙸𝙲",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/dbb3222d0fd3712e2a0e4.jpg",
+    "logo": "https://graph.org/file/5dde07baff72a1523b769.jpg",
     "keywords": [
     "python3",
     "telegram",
@@ -53,7 +53,7 @@
         "required": false
       },
       "LOGGER_ID": {
-        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena bsdk.",
+        "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Channel ki id mat daal dena lowde.",
         "value": "",
         "required": true
       }
