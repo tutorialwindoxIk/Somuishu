@@ -85,23 +85,23 @@ AMBOT = [
      "🕺",
      "🎩",
      "🌈",
-     "🍷",
+     "👀",
      "🥂",
      "🍾",
     "🥃",
     "🥤",
     "🍽",
     "🍭",
-    "🚗",
-    "🚕",
+    "🥀",
+    "🦋",
     "🚓",
-    "🚑",
+    "🙏🏻",
     "🚀",
     "💎",
     "🔮",
     "🪄",
     "💌",
-    "⁉️",
+    "👻",
     "💤",
     "🧨"
 ]
@@ -126,16 +126,16 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/00360393a15daf7fc4e9d.jpg"
 )
-PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/48f39202823b358203234.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/78ac6fc48e240895e5ec8.jpg"
+STATS_IMG_URL = "https://graph.org/file/6abe3a913bf645b5b89ce.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/443076090048170968b90.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
 SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
-YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/0c40d1fc5f17c524a6c16.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/bc0844a1139b5214ba78f.jpg"
 
 
 def time_to_seconds(time):
