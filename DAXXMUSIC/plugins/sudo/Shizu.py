@@ -30,7 +30,7 @@ strict_txt = [
 "are you serious i am not restrict to my chutiya freinds",
 "fuck you bsdk k mai apne dosto ko kyu kru",
 "hey lowde admin ", 
-"ha ye phele krlo maar lo ek dusre ki gwaand",  
+"ha ye phele krlo maar lo ek dusre ki gand",  
 "i can't hi is my closest friend",
 "i love him please don't restict this user try to usertand "
 ]
