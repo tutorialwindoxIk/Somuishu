@@ -29,7 +29,7 @@ search_engine_parser
 py-tgcalls==0.9.7
 pykeyboard
 pyshorteners
-pyrogram==git+https://github.com/TMM-TEAM/pyrogram
+pyrogram==2.0.106
 python-dotenv
 pyyaml==6.0.1
 requests
