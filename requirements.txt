@@ -1,4 +1,5 @@
-ohttp
+aiofiles
+aiohttp
 apscheduler
 asyncio
 bard
