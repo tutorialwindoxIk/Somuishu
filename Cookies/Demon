@@ -1,0 +1,46 @@
+cookies = [
+    {
+        "domain": ".youtube.com",
+        "include_subdomains": "TRUE",
+        "path": "/",
+        "secure": "TRUE",
+        "expiration_date": "1755277429",
+        "name": "__Secure-1PSIDCC",
+        "value": "AKEyXzVvsYaGuW5wgsLAXy31oaTXdClz9A6JRSsF7sAVlXW81F5BOOoFkLeUGyYfND7GYZdr"
+    },
+    {
+        "domain": ".youtube.com",
+        "include_subdomains": "TRUE",
+        "path": "/",
+        "secure": "TRUE",
+        "expiration_date": "1758301396",
+        "name": "PREF",
+        "value": "tz=America.Los_Angeles"
+    },
+    {
+        "domain": ".youtube.com",
+        "include_subdomains": "TRUE",
+        "path": "/",
+        "secure": "TRUE",
+        "expiration_date": "1739293394",
+        "name": "VISITOR_PRIVACY_METADATA",
+        "value": "CgJJThIEGgAgXw%3D%3D"
+    },
+]
+
+file_path = "cookies.txt"
+
+with open(file_path, "w") as f:
+    f.write("# Netscape HTTP Cookie File\n")
+    f.write("# This is a generated file! Do not edit.\n\n")
+    
+    for cookie in cookies:
+        f.write(f"{cookie['domain']}\t")
+        f.write(f"{cookie['include_subdomains']}\t")
+        f.write(f"{cookie['path']}\t")
+        f.write(f"{cookie['secure']}\t")
+        f.write(f"{cookie['expiration_date']}\t")
+        f.write(f"{cookie['name']}\t")
+        f.write(f"{cookie['value']}\n")
+
+print(f"Cookies have been written to {file_path}")
