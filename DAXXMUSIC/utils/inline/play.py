@@ -69,11 +69,11 @@ def stream_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="✪ʟɪꜰᴇ✪",
-                url=f"https://t.me/tmm_support_chat",
+                url=f"https://t.me/SweetToxicSupport",
             ),
             InlineKeyboardButton(
                 text="✪ᴊᴀɴɴ✪",
-                url=f"https://t.me/tmm_heroku_world",
+                url=f"https://t.me/kaalCarder",
             ),
         ],
         [
@@ -102,14 +102,14 @@ def stream_markup(_, chat_id):
 
                 text="✪ʟɪꜰᴇ✪",
 
-                url=f"https://t.me/tmm_support_chat",
+                url=f"https://t.me/SweetToxicSupport",
 
             ),
             InlineKeyboardButton(
 
                 text="✪ᴊᴀɴɴ✪",
 
-                url=f"https://t.me/tmm_heroku_world",
+                url=f"https://t.me/kaalCarder",
 
             ),
         ],
