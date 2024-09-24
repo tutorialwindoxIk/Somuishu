@@ -41,13 +41,4 @@ class DAXX(Client):
             )
             exit()
 
-        a = await self.get_chat_member(config.LOGGER_ID, self.id)
-        if a.status != ChatMemberStatus.ADMINISTRATOR:
-            LOGGER(__name__).error(
-                "Please promote your bot as an admin in your log group/channel."
-            )
-            exit()
-        LOGGER(__name__).info(f"Music Bot Started as {self.name}")
-
-    async def stop(self):
-        await super().stop()
+        a = await self.get_chat_member
