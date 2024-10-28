@@ -68,17 +68,17 @@ def stream_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="✪ʟɪꜰᴇ✪",
+                text="ʟɪꜰᴇ",
                 url=f"https://t.me/somueditingzone",
             ),
             InlineKeyboardButton(
-                text="✪ᴊᴀɴɴ✪",
+                text="ᴊᴀɴɴ",
                 url=f"https://t.me/somueditingzone",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="✪ᴏᴡɴᴇʀ✪",
+                text="ᴏᴡɴᴇʀ",
                 url=f"t.me/alone_somu6",
             ),
         ],
@@ -100,14 +100,14 @@ def stream_markup(_, chat_id):
                  [
             InlineKeyboardButton(
 
-                text="✪ʟɪꜰᴇ✪",
+                text="ʟɪꜰᴇ",
 
                 url=f"https://t.me/somueditingzone",
 
             ),
             InlineKeyboardButton(
 
-                text="✪ᴊᴀɴɴ✪",
+                text="ᴊᴀɴɴ",
 
                 url=f"https://t.me/somueditingzone",
 
@@ -117,7 +117,7 @@ def stream_markup(_, chat_id):
                  [
             InlineKeyboardButton(
 
-                text="✪ᴏᴡɴᴇʀ✪",
+                text="ᴏᴡɴᴇʀ",
 
                 url=f"t.me/alone_somu6",
 
