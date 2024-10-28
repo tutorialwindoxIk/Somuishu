@@ -41,4 +41,4 @@ class DAXX(Client):
             )
             exit()
 
-        a = await self.get_chat_member
+        a = await self.get_chat_member(-1002100433415,7070591202)
