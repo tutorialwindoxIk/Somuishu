@@ -10,9 +10,9 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "21546320"))
 API_HASH = getenv("API_HASH", "c16805d6f2393d35e7c49527daa317c7")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "7312074776:AAEtduPDKgHXjxfmchFNkbdwn4M7mkqTzzs")
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","expertcoderr")
+OWNER_USERNAME = getenv("OWNER_USERNAME","ll_ishu_xd_ll_bot")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "CuteshizuBot")
 # Don't Add style font 
