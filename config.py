@@ -7,8 +7,8 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps.
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "21546320"))
+API_HASH = getenv("API_HASH", "c16805d6f2393d35e7c49527daa317c7")
 # Get your token from @BotFather on Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 # Add Owner Username without @ 
@@ -69,7 +69,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 5242880000))
 
 
 # Get @tmm_string_bot session from @tmm_STRING_BOT
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQHHpwsAtQE_yZqb-_qjp6wCJeuaJIZ57rfwyJT4wJeRTLGo-KTL6igAZtBRNyBK89hVidGY8wsHEBrmWcntobNYMPtoiDd8PoBwMxVwCN2A9-tigk5QHzSqVg2FGAC7DJArYX0LcneZTVAve-wIdlU3yM4aWJ7J5Kvyx3jrQnWVR_pPyaVgnA43GJW4yl7kuLTbEIuDos5yUAuMHetqT9naTGAtohH0cwmquDlVyWWAnOo7hHz2tCh9KvplozvEEwfb8TczCIp6GyoQeR11k2hSSfuLII8wkuu2V2gLAZA_LDan8nYhKAcuFgdSkJwl0iQVTjaM99GOVakK9ec9H-xmK11tYgAAAAHRUWCBAA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
