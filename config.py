@@ -10,13 +10,13 @@ load_dotenv()
 API_ID = int(getenv("API_ID", "21546320"))
 API_HASH = getenv("API_HASH", "c16805d6f2393d35e7c49527daa317c7")
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7312074776:AAG6ToVEFGq0u9KSOy9bTT5WOTMsw52elds")
+BOT_TOKEN = getenv("BOT_TOKEN", "8124266415:AAEH0plorlXk-9YinZy9hBUMs-dti-hTf0Y")
 # Add Owner Username without @ 
 OWNER_USERNAME = getenv("OWNER_USERNAME","alone_somu6")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "ll_ishu_xd_ll_bot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "ll_shilpa_music_ll_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "ISHUXD")
+BOT_NAME = getenv("BOT_NAME" , "SHILPAMUSIC")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "Cuteshizu")
 EVALOP = list(map(int, getenv("EVALOP", "6656608288  6656608288").split()))
