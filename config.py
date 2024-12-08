@@ -16,12 +16,12 @@ OWNER_USERNAME = getenv("OWNER_USERNAME","alone_somu6")
 # Get Your bot username
 BOT_USERNAME = getenv("BOT_USERNAME" , "ll_shilpa_music_ll_bot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "SHILPAMUSIC")
+BOT_NAME = getenv("BOT_NAME" , "SOMUMUSIC")
 #get Your Assistant User name
 ASSUSERNAME = getenv("ASSUSERNAME" , "Cuteshizu")
 EVALOP = list(map(int, getenv("EVALOP", "6656608288  6656608288").split()))
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://Ishuxd:ishusomuxd@ishuxd.78ljc.mongodb.net/?retryWrites=true&w=majority&appName=Ishuxd")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://manoranjanhor43:somuxd@manoranjan.wsglmdq.mongodb.net/?retryWrites=true&w=majority&appName=Manoranjan")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 
